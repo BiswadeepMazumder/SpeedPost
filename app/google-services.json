@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "427313932160",
+    "firebase_url": "https://speedpost-cef67.firebaseio.com",
+    "project_id": "speedpost-cef67",
+    "storage_bucket": "speedpost-cef67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427313932160:android:5af610ce3cc73cae",
+        "android_client_info": {
+          "package_name": "android.meraki.speedpost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427313932160-nr2243d23rnqii0e80409t4dcabvq1v0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.meraki.speedpost",
+            "certificate_hash": "92b32e456e84238973ed30a2a74f25b6229ec5b8"
+          }
+        },
+        {
+          "client_id": "427313932160-1c0280888kc7jj6kcpdd2keec174tkgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX20WMf4Ipd7L_Sx_0MgNXv5CqCDcHl_s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427313932160-1c0280888kc7jj6kcpdd2keec174tkgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

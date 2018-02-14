@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SpeedPost</string>
+    <string name="need_a_new_account">Need A New Account ?</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+    <string name="username">Username</string>
+    <string name="create_user">Create User</string>
+    <string name="logout">Logout</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_users">All Users</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="create_account1">Create Account</string>
+    <string name="password1">Password</string>
+    <string name="email_id1">Email ID</string>
+    <string name="welcome_to_speed_post">Welcome To Speed Post</string>
+    <string name="already_have_a_account">Already Have A Account</string>
+    <string name="log_in">Log In</string>
+    <string name="fill_in_details_to_log_in">Fill in Details to Log In</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_status">Hey There! I am using Speed Post</string>
+    <string name="change_image">Change Image</string>
+    <string name="display_name">Display Name</string>
+</resources>
