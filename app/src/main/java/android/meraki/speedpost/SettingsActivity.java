@@ -77,8 +77,11 @@ public class SettingsActivity extends AppCompatActivity {
                // Toast.makeText(SettingsActivity.this,dataSnapshot.toString(), Toast.LENGTH_LONG).show();
                 mUsername.setText(name);
                 mUserstatus.setText(status);
-                Picasso.with(SettingsActivity.this).load(image).into(imageView);
-            }
+                if(!image.equals("default"))
+                    {
+                        Picasso.with(SettingsActivity.this).load(image).into(imageView);
+                    }
+                }
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
@@ -171,16 +174,16 @@ public class SettingsActivity extends AppCompatActivity {
             }
         }
     }
-
-    public static String random() {
-        Random generator = new Random();
-        StringBuilder randomStringBuilder = new StringBuilder();
-        int randomLength = generator.nextInt(10);
-        char tempChar;
-        for (int i = 0; i < randomLength; i++){
-            tempChar = (char) (generator.nextInt(96) + 32);
-            randomStringBuilder.append(tempChar);
-        }
-        return randomStringBuilder.toString();
-    }
+//
+//    public static String random() {
+//        Random generator = new Random();
+//        StringBuilder randomStringBuilder = new StringBuilder();
+//        int randomLength = generator.nextInt(10);
+//        char tempChar;
+//        for (int i = 0; i < randomLength; i++){
+//            tempChar = (char) (generator.nextInt(96) + 32);
+//            randomStringBuilder.append(tempChar);
+//        }
+//        return randomStringBuilder.toString();
+//    }
 }
