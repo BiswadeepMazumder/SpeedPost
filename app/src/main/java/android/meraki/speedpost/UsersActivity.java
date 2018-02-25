@@ -1,5 +1,6 @@
 package android.meraki.speedpost;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -49,9 +50,25 @@ public class UsersActivity extends AppCompatActivity {
       ) {
           @Override
           protected void populateViewHolder(UserViewHolder viewHolder, Users model, int position) {
+              UserViewHolder.setUserImage(model.getThumb_image(),getApplicationContext());
               UserViewHolder.setName(model.getName());
               UserViewHolder.setStatus(model.getStatus());
               UserViewHolder.setImage(model.getImage());
+
+              final String user_id = getRef(position).getKey();
+
+
+              UserViewHolder.mView.setOnClickListener(new View.OnClickListener() {
+                  @Override
+                  public void onClick(View v) {
+
+                      Intent profileIntent = new Intent(UsersActivity.this, ProfileActivity.class);
+                      profileIntent.putExtra("user_id",user_id);
+                      startActivity(profileIntent);
+
+                  }
+              });
+
 
           }
       };
